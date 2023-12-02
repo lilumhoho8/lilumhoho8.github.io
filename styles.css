@@ -1,0 +1,135 @@
+
+body {
+    background-color: #aa6040
+  }
+              
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    margin-left: 40px;
+  } 
+  p {
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  } 
+  .button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    .button1 {
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*bigger paragraph text*/
+  .paragraph1 {
+    color:grey;
+    font-size: 20px;
+  }
+  .a1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                  color:darkred;
+                  font-size: 16px;
+    margin-left: 40px;
+  }
+  .header{
+    font-family:Verdana;
+    background: maroon;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    border-color: maroon;
+    border-top: 2px solid maroon; 
+    border-left: 2px solid maroon; 
+    border-right: 2px solid maroon; 
+    position: relative;
+    z-index: 100;
+  }
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border:2px solid maroon;
+    color: maroon;
+    background-color: blanchedalmond;
+    font-family: verdana;
+    position: relative;
+    z-index: 50
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: blanchedalmond;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: verdana;
+    position: relative;
+    z-index: 51;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #f5ddba;
+  }
+  
+  /* Create an active/current tablink class ffc97f*/
+  .tab button.active {
+    background-color: maroon;
+    color: blanchedalmond;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px;
+    border: 2px solid maroon;
+    border-top: none;
+    background-color: blanchedalmond;
+    z-index:10000;
+    position: relative;
+  }
+  .tabcontent {
+    animation: fadeEffect 2s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  h3{
+    font-family: verdana
+  }
+  .footertransition{
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background: linear-gradient(
+      #aa6040, maroon 75%
+     );
+    color: white;
+    text-align: center;
+    height: 300px;
+    z-index: 1;
+  }
+  
