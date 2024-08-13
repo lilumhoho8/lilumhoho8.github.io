@@ -68,7 +68,7 @@ body {
     background-color: blanchedalmond;
     font-family: verdana;
     position: relative;
-    z-index: 50
+    z-index: 50;
   }
   
   /* Style the buttons inside the tab */
